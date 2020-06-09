@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="6.2_op.cpp" />
     <ClCompile Include="Massive.cpp" />
+    <ClCompile Include="treeS.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Massive.h" />
+    <ClInclude Include="treeS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

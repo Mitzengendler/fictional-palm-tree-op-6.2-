@@ -1,13 +1,12 @@
 ﻿  6.2_op.cpp
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(24,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(24,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(22): message : while compiling class template member function 'Massive<int>::Massive(int)'
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(12): message : see reference to function template instantiation 'Massive<int>::Massive(int)' being compiled
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(12): message : see reference to class template instantiation 'Massive<int>' being compiled
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(44,20): warning C4018: '<': signed/unsigned mismatch
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(43): message : while compiling class template member function 'void Massive<int>::showMas(void)'
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(13): message : see reference to function template instantiation 'void Massive<int>::showMas(void)' being compiled
-  Massive.cpp
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(24,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(25,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(25,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(23): message : while compiling class template member function 'Massive<int>::Massive(int)'
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(14): message : see reference to function template instantiation 'Massive<int>::Massive(int)' being compiled
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(14): message : see reference to class template instantiation 'Massive<int>' being compiled
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(45,20): warning C4018: '<': signed/unsigned mismatch
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(44): message : while compiling class template member function 'void Massive<int>::showMas(void)'
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(15): message : see reference to function template instantiation 'void Massive<int>::showMas(void)' being compiled
+  treeS.cpp
   Generating Code...
   6.2_op.vcxproj -> C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Debug\6.2_op.exe

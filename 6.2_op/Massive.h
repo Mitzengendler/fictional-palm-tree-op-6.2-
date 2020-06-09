@@ -15,6 +15,7 @@ public:
 	Massive(int n);
 	~Massive();
 	void showMas();
+	//void fillTree();
 };
 
 template<class T>
