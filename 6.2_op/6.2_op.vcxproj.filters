@@ -18,5 +18,13 @@
     <ClCompile Include="6.2_op.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Massive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Massive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

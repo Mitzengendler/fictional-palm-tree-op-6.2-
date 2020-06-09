@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="6.2_op.cpp" />
+    <ClCompile Include="Massive.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Massive.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
