@@ -9,7 +9,7 @@ int main()
     cout << "Enter number of elements: ";
     int n;
     cin >> n;
-    Massive<int> a(n);
+    Massive<double> a(n);
     a.sortMas();
     cout << "Array: ";
     a.showMas();

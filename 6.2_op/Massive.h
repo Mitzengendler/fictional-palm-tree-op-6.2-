@@ -17,18 +17,22 @@ public:
 	~Massive();
 	void showMas();
 	void sortMas();
-	int search(T key);
+	T search(T key);
 };
 
 template<class T>
 inline Massive<T>::Massive(int n)
 {
 	this->numOfEll = n;
-	srand(time(NULL));
+	/*srand(time(NULL));
 	for (int i = 0; i < this->numOfEll; i++) {
 		mas.push_back(rand() % 100);
+	}*/
+	for (int i = 0; i < this->numOfEll; i++) {
+		double l;
+		cin >> l;
+		mas.push_back(l);
 	}
-
 }
 
 template<class T>
@@ -53,7 +57,7 @@ inline void Massive<T>::sortMas()
 }
 
 template<class T>
-inline int Massive<T>::search(T key)
+inline T Massive<T>::search(T key)
 {
 	int left = 0;
 	int right = this->numOfEll - 1;
@@ -80,5 +84,5 @@ inline int Massive<T>::search(T key)
 	if (mas[right] == key) {
 		return right;
 	}
-	return -9;
+	return -999;
 }
