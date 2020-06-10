@@ -11,7 +11,7 @@ class Massive
 {
 private:
 	vector<T> mas;
-	int numOfEll;
+	T numOfEll;
 public:
 	Massive(int n);
 	~Massive();
@@ -59,9 +59,9 @@ inline void Massive<T>::sortMas()
 template<class T>
 inline T Massive<T>::search(T key)
 {
-	int left = 0;
-	int right = this->numOfEll - 1;
-	int centr;
+	T left = 0;
+	T right = this->numOfEll - 1;
+	T centr;
 	while (mas[left] <= key && mas[right] >= key)
 	{
 		if (mas[right] == mas[left]) {

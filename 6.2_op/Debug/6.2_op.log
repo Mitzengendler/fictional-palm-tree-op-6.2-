@@ -1,23 +1,13 @@
 ﻿  6.2_op.cpp
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(34,17): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=long
+          ]
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(25): message : while compiling class template member function 'Massive<long>::Massive(int)'
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(12): message : see reference to function template instantiation 'Massive<long>::Massive(int)' being compiled
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(12): message : see reference to class template instantiation 'Massive<long>' being compiled
 C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(47,20): warning C4018: '<': signed/unsigned mismatch
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(46): message : while compiling class template member function 'void Massive<double>::showMas(void)'
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(15): message : see reference to function template instantiation 'void Massive<double>::showMas(void)' being compiled
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(12): message : see reference to class template instantiation 'Massive<double>' being compiled
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(70,16): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
-          with
-          [
-              T=double
-          ]
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(61): message : while compiling class template member function 'T Massive<T>::search(T)'
-          with
-          [
-              T=double
-          ]
-C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(19): message : see reference to function template instantiation 'T Massive<T>::search(T)' being compiled
-          with
-          [
-              T=double
-          ]
-  Massive.cpp
-  Generating Code...
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Massive.h(46): message : while compiling class template member function 'void Massive<long>::showMas(void)'
+C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\6.2_op.cpp(15): message : see reference to function template instantiation 'void Massive<long>::showMas(void)' being compiled
   6.2_op.vcxproj -> C:\gitrepo\fictional-palm-tree-op-6.2-\6.2_op\Debug\6.2_op.exe
