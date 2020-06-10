@@ -28,9 +28,6 @@ inline Massive<T>::Massive(int n)
 		//mas.push_back(21.5);
 	}
 
-	//
-
-
 }
 
 template<class T>
@@ -47,4 +44,3 @@ inline void Massive<T>::showMas()
 	}
 	cout << endl;
 }
-
