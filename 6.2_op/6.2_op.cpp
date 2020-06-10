@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 int main()
 {
     cout << "Hello World!\n";
@@ -11,6 +10,11 @@ int main()
     int n;
     cin >> n;
     Massive<int> a(n);
+    a.sortMas();
+    cout << "Array: ";
     a.showMas();
-    
+    int k;
+    cout << "Enter element to find: ";
+    cin >> k;
+    cout << "Interpolation search index:" << a.search(k);
 }
